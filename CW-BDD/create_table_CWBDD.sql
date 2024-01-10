@@ -32,3 +32,11 @@ CREATE TABLE favoris (
     users_id INT REFERENCES users(id),
     plat_id INT REFERENCES plat(id)
 );
+
+CREATE TABLE avis (
+    id SERIAL PRIMARY KEY,
+    content VARCHAR(255) NOT NULL,
+    restaurant_id INT REFERENCES restaurant(id),
+    users_id INT REFERENCES users(id),
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
