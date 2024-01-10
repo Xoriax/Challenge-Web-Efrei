@@ -3,17 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Autres balises meta et liens vers les fichiers CSS ici -->
+    <title>RestoHub</title>
 </head>
 <body>
 
-<header>
-    <h1>Restaurant Répertoire</h1>
-    <nav>
-        <ul>
-            <li><a href="?page=accueil">Accueil</a></li>
-            <li><a href="?page=restaurant_view">Restaurants</a></li>
-            <li><a href="?page=contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+<nav>
+    <ul>
+        <li><a href="?page=accueil">Accueil</a></li>
+        <li><a href="?page=restaurant_view">Restaurants</a></li>
+        <li><a href="?page=contact">Contact</a></li>
+        <li><a href="?page=profil">Profil</a></li>
+    </ul>
+</nav>

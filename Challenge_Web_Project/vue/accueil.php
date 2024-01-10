@@ -1,6 +1,5 @@
-<!-- views/accueil.php -->
-<?php include 'header.php'; ?>
+<!-- accueil.php -->
 
-<!-- Le contenu de votre page d'accueil va ici -->
-
-<?php include 'footer.php'; ?>
+<h1>Accueil</h1>
+<p>Bienvenue sur RestoHub. Découvrez une sélection des meilleurs restaurants.</p>
+<!-- Ajoutez ici le contenu spécifique de la page d'accueil -->
