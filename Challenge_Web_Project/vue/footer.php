@@ -1,5 +1,3 @@
-<!-- footer.php -->
-
 <footer>
     <p>Restaurant Répertoire. Tous droits réservés.
         <a href="#">À propos</a>
