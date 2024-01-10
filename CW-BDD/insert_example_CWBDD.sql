@@ -15,6 +15,3 @@ SELECT * FROM reservation
 INSERT INTO favoris (restaurant_id, users_id, plat_id) VALUES (1, 1, 1);
 INSERT INTO favoris (restaurant_id, users_id, plat_id) VALUES (2, 2, 3);
 SELECT * FROM favoris
-INSERT INTO avis (content,restaurant_id, users_id) VALUES ('contenus avis 1',1, 1);
-INSERT INTO avis (content,restaurant_id, users_id) VALUES ('contenus avis 2',2, 2);
-SELECT * FROM avis
