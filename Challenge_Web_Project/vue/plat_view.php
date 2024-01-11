@@ -4,6 +4,9 @@ if (isset($plats)) {
 
     foreach ($plats as $plat) {
         echo "<strong>Nom :</strong> " . $plat['name'] . "<br>";
+        if (!empty($plat['image'])) {
+            echo "<img src='" . $plat['image'] . "' alt='" . $plat['name'] . "'><br>";
+        }
         echo "<br>";
     }
 
