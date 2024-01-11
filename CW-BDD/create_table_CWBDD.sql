@@ -8,7 +8,8 @@ CREATE TABLE restaurant (
 CREATE TABLE plat (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
-    restaurant_id INT REFERENCES restaurant(id)
+    restaurant_id INT REFERENCES restaurant(id),
+    image VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE users (
