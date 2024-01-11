@@ -2,9 +2,9 @@ INSERT INTO restaurant (name, address, image) VALUES ('Restaurant A', 'Adresse A
 INSERT INTO restaurant (name, address, image) VALUES ('Restaurant B', 'Adresse B', 'image_b.jpg');
 INSERT INTO restaurant (name, address, image) VALUES ('Restaurant C', 'Adresse C', 'image_c.jpg');
 SELECT * from restaurant
-INSERT INTO plat (name, restaurant_id) VALUES ('Plat 1', 1);
-INSERT INTO plat (name, restaurant_id) VALUES ('Plat 2', 1);
-INSERT INTO plat (name, restaurant_id) VALUES ('Plat 3', 2);
+INSERT INTO plat (name, restaurant_id, image) VALUES ('Plat 1', 1, 'imageplat1');
+INSERT INTO plat (name, restaurant_id, image) VALUES ('Plat 2', 1, 'imageplat2');
+INSERT INTO plat (name, restaurant_id, image) VALUES ('Plat 3', 2, 'imageplat3');
 SELECT * FROM plat
 INSERT INTO users (name, firstname, email, password) VALUES ('Doe', 'John', 'john.doe@example.com', 'password123');
 INSERT INTO users (name, firstname, email, password) VALUES ('Smith', 'Jane', 'jane.smith@example.com', 'securepass');
