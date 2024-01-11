@@ -28,7 +28,6 @@ switch ($page) {
     case 'contact':
         include 'vue/contact.php';
         break;
-    // Profil, reservation, favoris retirés
     case 'plat_view':
         $restaurantId = isset($_GET['id']) ? intval($_GET['id']) : 0;
         $platController = new PlatController();
