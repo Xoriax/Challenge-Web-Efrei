@@ -5,6 +5,8 @@ SELECT * from restaurant
 INSERT INTO plat (name, restaurant_id, image) VALUES ('Plat 1', 1, 'imageplat1');
 INSERT INTO plat (name, restaurant_id, image) VALUES ('Plat 2', 1, 'imageplat2');
 INSERT INTO plat (name, restaurant_id, image) VALUES ('Plat 3', 2, 'imageplat3');
+INSERT INTO plat (name, restaurant_id, image) VALUES ('Plat 4', 3, 'imageplat4');
+INSERT INTO plat (name, restaurant_id, image) VALUES ('Plat 5', 4, 'imageplat5');
 SELECT * FROM plat
 INSERT INTO users (name, firstname, email, password) VALUES ('Doe', 'John', 'john.doe@example.com', 'password123');
 INSERT INTO users (name, firstname, email, password) VALUES ('Smith', 'Jane', 'jane.smith@example.com', 'securepass');
