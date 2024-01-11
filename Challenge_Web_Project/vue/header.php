@@ -14,8 +14,7 @@
     <nav>
         <ul>
             <li><a href="?page=accueil" :class="{ 'active': window.location.href.includes('accueil') }">Accueil</a></li>
-            <li><a href="?page=restaurant_view"
-                    :class="{ 'active': window.location.href.includes('restaurant_view') }">Restaurants</a></li>
+            <li><a href="?page=restaurant_view" :class="{ 'active': window.location.href.includes('restaurant_view') }">Restaurants</a></li>
             <li><a href="?page=contact" :class="{ 'active': window.location.href.includes('contact') }">Contact</a></li>
             <li><a href="?page=profil" :class="{ 'active': window.location.href.includes('profil') }">Profil</a></li>
         </ul>
