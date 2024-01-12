@@ -5,7 +5,7 @@
             <label class="labelcontact" for="nom">Nom :</label>
             <input class="inputcontact" type="text" name="nom" id="nom" required>
 
-            <label class="labelcontact" for="prenom">PrÃ©nom :</label>
+            <label class="labelcontact" for="prenom">Prénom :</label>
             <input class="inputcontact" type="text" name="prenom" id="prenom" required>
 
             <label class="labelcontact" for="email">Email :</label>
