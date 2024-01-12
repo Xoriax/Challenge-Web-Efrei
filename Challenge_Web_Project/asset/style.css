@@ -140,7 +140,8 @@ footer p {
     border-radius: 5px;
 }
 
-.h1DR, h2 {
+.h1DR,
+h2 {
     text-align: center;
     margin-bottom: 30px;
 }
@@ -161,7 +162,8 @@ footer p {
     border-radius: 25px;
 }
 
-.buttonDR, .buttonDRBack {
+.buttonDR,
+.buttonDRBack {
     display: inline-block;
     padding: 10px 10px;
     text-align: center;
@@ -173,11 +175,12 @@ footer p {
     margin-right: 10px;
 }
 
-.buttonDRBack{
+.buttonDRBack {
     border: black solid 2px;
 }
 
-.buttonDR:hover, .buttonDRBack:hover {
+.buttonDR:hover,
+.buttonDRBack:hover {
     background-color: black;
     color: white;
     text-decoration: none;
@@ -193,8 +196,16 @@ footer p {
 .formcontact {
     max-width: 600px;
     margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.formContact {
+    display: flex;
+    flex-direction: column;
+}
 
 .labelcontact {
     display: block;
@@ -211,18 +222,18 @@ footer p {
 
 
 .btncontact {
-    background-color: #4caf50; 
-    color: white; 
+    background-color: #4caf50;
+    color: white;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
 }
 
 .btncontact:hover {
-    background-color: #45a049; 
+    background-color: #45a049;
 }
 
-.contact-form{
+.contact-form {
     height: 67vh;
     padding: 20px;
 }
