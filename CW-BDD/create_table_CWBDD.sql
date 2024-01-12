@@ -18,11 +18,3 @@ CREATE TABLE reservation (
     mail VARCHAR(255) NOT NULL,
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
-CREATE TABLE avis (
-    id SERIAL PRIMARY KEY,
-    content VARCHAR(255) NOT NULL,
-    restaurant_id INT REFERENCES restaurant(id),
-    mail VARCHAR(255) NOT NULL,
-    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
