@@ -193,47 +193,56 @@ h2 {
     margin-bottom: 20px;
 }
 
-.formcontact {
+#content {
     max-width: 600px;
-    margin: 0 auto;
+    margin: auto;
+    padding: 20px;
+}
+
+.contact-form {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.formContact {
+h2 {
+    color: #333;
+}
+
+form {
     display: flex;
     flex-direction: column;
 }
 
-.labelcontact {
-    display: block;
+label {
     margin-bottom: 8px;
 }
 
-.inputcontact,
-.areatextcontact {
-    width: 100%;
-    padding: 8px;
+input,
+textarea,
+button {
     margin-bottom: 16px;
-    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-
-.btncontact {
+button {
     background-color: #4caf50;
-    color: white;
-    padding: 10px 15px;
-    border: none;
+    color: #fff;
     cursor: pointer;
 }
 
-.btncontact:hover {
+button:hover {
     background-color: #45a049;
 }
 
-.contact-form {
-    height: 67vh;
-    padding: 20px;
+#confirmation-message {
+    display: none;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
 }
