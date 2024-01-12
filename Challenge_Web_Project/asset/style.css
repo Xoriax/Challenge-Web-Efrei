@@ -140,7 +140,7 @@ footer p {
     border-radius: 5px;
 }
 
-.h1DR {
+.h1DR, h2 {
     text-align: center;
     margin-bottom: 30px;
 }
@@ -188,4 +188,41 @@ footer p {
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.formcontact {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.labelcontact {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.inputcontact,
+.areatextcontact {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+
+.btncontact {
+    background-color: #4caf50; 
+    color: white; 
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btncontact:hover {
+    background-color: #45a049; 
+}
+
+.contact-form{
+    height: 67vh;
+    padding: 20px;
 }
