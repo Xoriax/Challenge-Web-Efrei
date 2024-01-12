@@ -145,12 +145,23 @@ footer p {
     margin-bottom: 30px;
 }
 
-.custom-card {
-    max-width: 900px;
-    margin: auto;
+.card-container {
+    height: 50vh;
+    padding: 90px;
 }
 
-.buttonDR {
+.custom-card {
+    max-width: 900px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px;
+}
+
+.imgDR {
+    border-radius: 25px;
+}
+
+.buttonDR, .buttonDRBack {
     display: inline-block;
     padding: 10px 10px;
     text-align: center;
@@ -162,7 +173,11 @@ footer p {
     margin-right: 10px;
 }
 
-.buttonDR:hover {
+.buttonDRBack{
+    border: black solid 2px;
+}
+
+.buttonDR:hover, .buttonDRBack:hover {
     background-color: black;
     color: white;
     text-decoration: none;
