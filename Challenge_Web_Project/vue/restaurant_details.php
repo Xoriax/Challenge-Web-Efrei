@@ -9,7 +9,7 @@ if (isset($restaurant)) {
             <div class="row g-0">
                 <div class="col-md-4">
                     <?php if (!empty($restaurant['image'])): ?>
-                        <img class="imgDR" src="<?php echo $restaurant['image']; ?>"
+                        <img class="restaurant-image-DR" src="<?php echo $restaurant['image']; ?>"
                             alt="<?php echo $restaurant['name']; ?>"><br>
                     <?php endif; ?>
                 </div>
@@ -20,7 +20,7 @@ if (isset($restaurant)) {
                         <strong>Adresse :</strong>
                         <?php echo $restaurant['address']; ?><br><br><br>
                         <a href="?page=plat_view&id=<?php echo $restaurant['id']; ?>" class="buttonDR">Voir les plats</a>
-                        <a href="?page=form">Reserver</a>
+                        <a href="?page=form" class="buttonDR">Reserver</a>
                     </div>
                 </div>
             </div>

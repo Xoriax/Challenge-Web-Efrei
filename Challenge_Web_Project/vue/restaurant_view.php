@@ -11,7 +11,8 @@
                 </strong><br>
                 <?php echo $restaurant['address']; ?><br>
                 <?php if (!empty($restaurant['image'])): ?>
-                    <img src="<?php echo $restaurant['image']; ?>" alt="<?php echo $restaurant['name']; ?>"><br>
+                    <img src="<?php echo $restaurant['image']; ?>" alt="<?php echo $restaurant['name']; ?>"
+                        class="restaurant-image"><br>
                 <?php endif; ?>
                 <a href="?page=restaurant_details&id=<?php echo $restaurant['id']; ?>" class="details-button">Détails</a>
             </div>
