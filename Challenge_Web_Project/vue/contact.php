@@ -20,6 +20,9 @@
     <div id="confirmation-message" style="display: none;">
         Formulaire validé avec succès !
     </div>
+    <div class="button-containerDR">
+        <a href="javascript:history.go(-1)" class="buttonDRBack">Retour</a>
+    </div>
 </div>
 <script>
     function showPopup() {
