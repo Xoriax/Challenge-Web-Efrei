@@ -19,9 +19,3 @@ INSERT INTO plat (name, restaurant_id, image) VALUES ('Plat 3', 2, 'imageplat3')
 INSERT INTO plat (name, restaurant_id, image) VALUES ('Plat 4', 3, 'imageplat4');
 INSERT INTO plat (name, restaurant_id, image) VALUES ('Plat 5', 4, 'imageplat5');
 SELECT * FROM plat
-INSERT INTO reservation (restaurant_id, mail) VALUES (1, 'r1@gmail.com');
-INSERT INTO reservation (restaurant_id, mail) VALUES (2, 'r2@gmail.com');
-SELECT * FROM reservation
-INSERT INTO avis (content,restaurant_id, mail) VALUES ('contenus avis 1',1, 'c1@gmail.com');
-INSERT INTO avis (content,restaurant_id, mail) VALUES ('contenus avis 2',2, 'c2@gmail.com');
-SELECT * FROM avis
