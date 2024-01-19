@@ -20,6 +20,7 @@
 ----------
 ### **Others Informations**
 >For each application, use the most recent version available.
+
 | Software           | Version        |
 | ------------------ | -------------- |
 | Visual Studio Code | current 1.85.1 |
@@ -40,7 +41,7 @@
 | 8     | Once the tables have been created, it's time to add the examples. To do this, copy the SQL code [here](https://github.com/Xoriax/Challenge-Web-Efrei/blob/main/CW-BDD/insert_example_CWBDD.sql). After each ``INSERT INTO``, remember to run a ``SELECT`` to check that it has been saved in the Database. | ![database](https://media.discordapp.net/attachments/1189316878460518441/1197141551667740744/Capture_decran_109.png?ex=65ba2ff3&is=65a7baf3&hm=87e26d42f289fbe6ff0d150c586fb58e6e6bc33f13474ed34bb39338527c13dc&=&format=webp&quality=lossless&width=938&height=701)    |
 | 9     | After uploading all the files to [GitHub](https://github.com/Xoriax/Challenge-Web-Efrei/tree/main), in the ``Database.php`` file change the info (Host, Name, User, Password, Port)                                                                                                                        | ![database.php](https://cdn.discordapp.com/attachments/1189316878460518441/1196392686731677726/Capture_decran_97.png?ex=65b77684&is=65a50184&hm=92e937a18a2322b64fe672710b062329b03693d1b235436faa735b41c7dc21a2&)                                                      |
 ----------
-### **Utilissation**
+### **Utilisation**
 
 | Steps | Action                                                         | Complements                                                                                                                                                                                                                                                               |
 | ----- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
